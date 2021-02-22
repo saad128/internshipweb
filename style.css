@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: cursive;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("save.jpg");
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    display: inline;
+}
+.nav-title h3{
+    color: lightgrey;
+    padding: 20px 45%;
+}
+.nav-links i{
+    float: left;
+    color: lightgrey;
+    margin-left: 150px;
+    padding: 20px 10px;
+    list-style: none;
+    display: inline-block;
+}
+.btn{
+    margin-right: 150px;
+    margin-top: -70px;
+    justify-content:center;
+    background-color: transparent;
+    border: none;
+    color: lightgrey;
+}
+.nav-title .btn{
+    float: right;
+}
+h4{
+    font-size: 15px;
+    color: lightgrey;
+    margin-left: 165px;
+    margin-top: 70px;
+}
+.btn1{
+    padding: 10px 20px;
+    border: 0;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-title{
+    margin-left: 160px;
+    color: lightgrey;
+}
+.banner-title .p{
+    font-size: 1px;
+}
+input[type=text] {
+    width: 40%;
+    margin: 8px ;
+    padding: 28px 80px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.inputclass{
+    margin-left: 150px;
+    margin-top: 243px;
+}
